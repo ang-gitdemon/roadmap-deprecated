@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "minify-js": "0.0.4",
+    "pump": "^3.0.0"
+  },
   "devDependencies": {
     "clean-css": "^4.1.11",
     "clean-css-cli": "^4.1.11",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.4",
     "gulp-sass": "^4.0.1",
-    "gulp-sequence": "^1.0.0"
+    "gulp-sequence": "^1.0.0",
+    "gulp-uglify": "^3.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

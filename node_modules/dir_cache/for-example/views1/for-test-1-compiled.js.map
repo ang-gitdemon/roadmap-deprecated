@@ -1,0 +1,1 @@
+{"version":3,"sources":["for-test-1.js"],"names":[],"mappings":"AAAA,QAAQ,IAAR,GAAe,YAAY;AAAE,SAAO,CAAP;AAAS,CAAtC;AACA,QAAQ,KAAR,GAAgB,YAAY;AAAE,SAAO,CAAP;AAAS,CAAvC","file":"for-test-1-compiled.js","sourcesContent":["exports.view = function () { return 1};\nexports.view2 = function () { return 1};\n"]}

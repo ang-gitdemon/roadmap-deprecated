@@ -5,6 +5,9 @@ var gulpSequence = require('gulp-sequence')
 let cleanCSS = require('gulp-clean-css');
 var sass = require('gulp-sass');
 var minifycss = require('gulp-clean-css');
+var uglify = require('gulp-uglify');
+var pump = require('pump');
+
 
 gulp.task('sass', function () {
   return gulp.src('./assets/scss/style.scss')
@@ -18,4 +21,14 @@ gulp.task('minifycss', () => {
     .pipe(gulp.dest('dist/css'));
 });
 
-gulp.task('develop', gulpSequence('sass', 'minifycss'));
+gulp.task('compress', function (cb) {
+  pump([
+        gulp.src('./assets/js/*.js'),
+        uglify(),
+        gulp.dest('./dist/js')
+    ],
+    cb
+  );
+});
+
+gulp.task('develop', gulpSequence('sass', 'minifycss', 'compress'));
