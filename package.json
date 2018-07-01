@@ -1,0 +1,33 @@
+{
+  "name": "roadmap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "clean-css": "^4.1.11",
+    "clean-css-cli": "^4.1.11",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-sass": "^4.0.1",
+    "gulp-sequence": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecenteno/roadmap.git"
+  },
+  "keywords": [
+    "roadmap",
+    "angel",
+    "centeno"
+  ],
+  "author": "Angel Centno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecenteno/roadmap/issues"
+  },
+  "homepage": "https://github.com/thecenteno/roadmap#readme"
+}
