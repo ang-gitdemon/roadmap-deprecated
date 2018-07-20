@@ -24,7 +24,7 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 // Enqueue Styles in Header
 function as3_css() {
-  wp_enqueue_style( 'as3-style', get_stylesheet_uri().'/dist/css/style.css' );
+  wp_enqueue_style( 'as3-style', get_stylesheet_uri() );
   if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
   	wp_enqueue_script( 'comment-reply' );
   }

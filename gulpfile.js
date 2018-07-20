@@ -18,7 +18,7 @@ gulp.task('sass', function () {
 gulp.task('minifycss', () => {
   return gulp.src('./assets/css/style.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('dist/css'));
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('compress', function (cb) {
