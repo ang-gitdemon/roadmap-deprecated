@@ -7,12 +7,44 @@
   License: GNU General Public License v2 or later
   License URI: http://www.gnu.org/licenses/gpl-2.0.html*/
 
-@import "core/bootstrap/_functions.scss";
-@import "core/bootstrap/_variables.scss";
-@import "core/bootstrap/mixins/_breakpoints.scss";
-@import "core/bootstrap/mixins/_grid-framework.scss";
-@import "core/bootstrap/mixins/_grid.scss";
-@import "core/bootstrap/_grid.scss";
-@import "core/bootstrap/utilities/_display.scss";
-@import "core/bootstrap/utilities/_flex.scss";
+// BOOTSTRAP CORE
+@import "core/bootstrap/_functions";
+@import "core/bootstrap/_variables";
+@import "core/bootstrap/_mixins";
+@import "core/bootstrap/_root";
+@import "core/bootstrap/_reboot";
+@import "core/bootstrap/_type";
+@import "core/bootstrap/_images";
+@import "core/bootstrap/_code";
+@import "core/bootstrap/_grid";
+@import "core/bootstrap/_tables";
+@import "core/bootstrap/_forms";
+@import "core/bootstrap/_buttons";
+@import "core/bootstrap/_transitions";
+@import "core/bootstrap/_dropdown";
+@import "core/bootstrap/_button-group";
+@import "core/bootstrap/_input-group";
+@import "core/bootstrap/_custom-forms";
+@import "core/bootstrap/_nav";
+@import "core/bootstrap/_navbar";
+@import "core/bootstrap/_card";
+@import "core/bootstrap/_breadcrumb";
+@import "core/bootstrap/_pagination";
+@import "core/bootstrap/_badge";
+@import "core/bootstrap/_jumbotron";
+@import "core/bootstrap/_alert";
+@import "core/bootstrap/_progress";
+@import "core/bootstrap/_media";
+@import "core/bootstrap/_list-group";
+@import "core/bootstrap/_close";
+@import "core/bootstrap/_modal";
+//@import "core/bootstrap/_tooltip"; Move tooltip JS into parent directory
+@import "core/bootstrap/_popover";
+@import "core/bootstrap/_carousel";
+@import "core/bootstrap/_utilities";
+@import "core/bootstrap/_print";
+
 @import "core/_wordpress.scss";
+@import "common/_1.1-variables.scss";
+@import "common/_1.2-global.scss";
+@import "components/_2.1-header.scss";

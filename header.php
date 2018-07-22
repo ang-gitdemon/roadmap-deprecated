@@ -19,7 +19,7 @@
   <div class="container">
       <section class="row">
           <div id="menu" class="col-md-9">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
